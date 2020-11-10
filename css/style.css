@@ -48,7 +48,7 @@ body {
     padding-right: 8%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: powderblue
+    background-color: white
 }
 
 h3 {
@@ -121,7 +121,7 @@ nav ul li a {
 
 /*-------------------------------------------------------------------------------------------------------------------------------------*/
 .section_New {
-    background-color: azure
+    background-color: #f4f1f1;
 }
 
 .New_Image {

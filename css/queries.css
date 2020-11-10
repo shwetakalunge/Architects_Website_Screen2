@@ -62,9 +62,37 @@
         font-size: 12px;
         margin-bottom: 00px;
     }
+    /*-------------------------------------------------------------------------------------------------------------*/
+  .main-nav {
+        display: none
+    }
+    .mobile-nav-icon {
+        display: inline-block
+    }
+  
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+    }
 
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+    }
+
+    /*.navbar ul li {
+        display: block
+    }
+*/
     nav ul li {
-        margin-left: 25px
+        margin-left: 25px;
+        display: block
     }
 
     .Image_btn4 {
@@ -150,6 +178,8 @@
 
 /*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
 @media only screen and (max-width:480px) {
+
+
     h1 {
         font-size: 30px;
     }
@@ -239,3 +269,63 @@
     }
 
 }
+
+/*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
+@media only screen and (max-width:320px) {
+    .originalLogo {
+        width: 50px;
+        margin-left: 0px;
+
+    }
+
+    .footer-nav li {
+        list-style: none;
+        padding: 5px;
+
+    }
+
+
+    .footer-list h6 {
+        padding: 0px;
+    }
+
+    footer h6 {
+        color: white;
+        font-size: 8px;
+        padding: 10px;
+    }
+
+    .footer-icons {
+        font-size: 8px;
+
+    }
+
+    .footer-icons h6 {
+        padding: 5px
+    }
+
+    .fa-map-marker,
+    .fa-phone,
+    .fa-envelope-o {
+        padding: 5px;
+    }
+
+    .footer-social-icons {
+        color: white;
+        font-size: 15px;
+        word-spacing: 5px;
+        cursor: pointer;
+        display: block
+    }
+
+    .fa-facebook,
+    .fa-twitter,
+    .fa-instagram,
+    .fa-pinterest-square {
+        padding: 5px;
+    }
+
+    footer text {
+        font-size: 10px;
+
+    }

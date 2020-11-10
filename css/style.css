@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
    font-family: 'Abel', sans-serif;
 
@@ -26,7 +27,11 @@ body {
 .row {
     max-width: 1140px;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 
 
@@ -41,6 +46,7 @@ body {
     width: 100%;
     padding-left: 8%;
     padding-right: 8%;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background-color: powderblue
 }
@@ -61,20 +67,42 @@ h4 {
     margin-bottom: 30px;
     width: 50%
 }
+/*-------------------------------------------------------------------------------------------------------*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none
+  
+}
 
+.mobile-nav-icon i{
+    font-size: 25px;
+    color: black;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
 .navbar {
     height: 12%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .logo {
     width: 100px;
+    -webkit-filter: invert(100%);
     filter: invert(100%);
     margin-top: 30px
 }
 
 nav {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
     text-align: right;
 }
@@ -205,6 +233,7 @@ footer h6 {
     font-size: 15px;
     word-spacing: 5px;
     line-height: 2px;
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
 
 }
@@ -217,6 +246,7 @@ footer h6 {
 .fa-phone,
 .fa-envelope-o {
     padding: 20px;
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
 }
 
@@ -226,6 +256,7 @@ footer h6 {
     word-spacing: 5px;
     font-size: 25px;
     cursor: pointer;
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
 
 }

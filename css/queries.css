@@ -1,0 +1,241 @@
+/*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
+@media only screen and (max-width:1200px) {
+    .row {
+        width: 100%;
+    }
+}
+
+/*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
+@media only screen and (max-width:1023px) {
+    h4 {
+        color: #BDBDBD;
+        font-size: 20px;
+        margin-bottom: 00px;
+        width: 100%
+    }
+
+    .New_box1 {
+        width: 60%;
+    }
+
+    .New_box2 {
+        width: 60%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .New_box2 p {
+        width: 100%
+    }
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 35px
+    }
+
+    .Image_btn4 {
+        padding: 20px 40px 20px 40px;
+        width: 70%;
+
+    }
+
+
+}
+
+/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
+@media only screen and (max-width:767px) {
+    .row {
+        width: 100%;
+    }
+
+    .New_box1 {
+        width: 100%;
+    }
+
+    .New_box2 {
+        width: 100%;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .New_box2 p {
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 00px;
+    }
+
+    nav ul li {
+        margin-left: 25px
+    }
+
+    .Image_btn4 {
+        padding: 10px 10px 10px 10px;
+        width: 60%;
+        font-size: 12px
+    }
+
+    .fa-arrow-right {
+        margin-left: 10px
+    }
+
+    h4 {
+        color: #BDBDBD;
+        font-size: 15px;
+        margin-bottom: 30px;
+        word-break: break-all;
+        margin-bottom: 5px;
+    }
+
+    .originalLogo {
+        width: 40px;
+        margin-left: 0px;
+
+    }
+
+    .footer-nav li {
+        list-style: none;
+        padding: 5px;
+        font-size: 10px;
+
+    }
+
+
+    .footer-list h6 {
+        padding: 5px;
+    }
+
+    footer h6 {
+        color: white;
+        font-size: 11px;
+        padding: 5px;
+    }
+
+    .footer-icons {
+        color: white;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .footer-icons h6 {
+        padding: 15px
+    }
+
+    .fa-map-marker,
+    .fa-phone,
+    .fa-envelope-o {
+        padding: 10px;
+        flex-basis: 100%;
+    }
+
+    .footer-social-icons {
+        font-size: 15px;
+        word-spacing: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        flex-basis: 100%;
+
+    }
+
+    .fa-facebook,
+    .fa-twitter,
+    .fa-instagram,
+    .fa-pinterest-square {
+        padding: 0px;
+    }
+
+    footer text {
+        font-size: 10px;
+    }
+
+}
+
+/*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
+@media only screen and (max-width:480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .New_box2 p {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .Image_btn4 {
+        padding: 5px 5px 5px 5px;
+        width: 70%;
+        font-size: 10px;
+
+    }
+
+    .footer-nav li {
+        list-style: none;
+        padding: 5px;
+
+    }
+
+    .footer-nav li a {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .footer-list h6 {
+        padding: 8px;
+    }
+
+    footer h6 {
+        color: white;
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    .footer-icons {
+        font-size: 10px;
+        word-spacing: 1px;
+    }
+
+    .footer-icons h6 {
+        padding: 10px
+    }
+
+    .fa-map-marker,
+    .fa-phone,
+    .fa-envelope-o {
+        padding: 10px;
+        flex-basis: 100%;
+    }
+
+    .footer-social-icons {
+        font-size: 10px;
+        word-spacing: 5px;
+        font-size: 15px;
+
+
+    }
+
+    .fa-facebook,
+    .fa-twitter,
+    .fa-instagram,
+    .fa-pinterest-square {
+        padding: 10px;
+    }
+
+    footer text {
+        font-size: 6px;
+        padding: 20px
+    }
+
+    footer text:before {
+        content: ' \00A9';
+
+    }
+
+}
